@@ -1,0 +1,121 @@
+
+@import url("normalize.css");
+  /* Header styles */
+  header {
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    background: #289e9f;
+    background: linear-gradient(
+      0deg,
+      rgba(40, 158, 159, 1) 0%,
+      rgba(207, 31, 252, 0.9598214285714286) 100%
+    );
+
+    
+  
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 20px;
+    width: 100vw;
+    z-index: 100;
+    position: relative;
+    top: 30px;
+
+
+    background: url();
+    background-repeat:  no-repeat;
+    background-position: center; 
+    background-size: cover;  /* Back ground size po centru po svemu ekranu  mozhget bitj CONTAIN*/
+
+  }
+  
+  
+  
+  header img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  header  {
+    margin-left: 10px;
+     transform: translate()
+  }
+
+  body{
+    position: relative;
+  }
+/* lidz 970 from*/
+  @media screen and (max-width: 768px){
+    header{
+        background-color: blue;
+    }
+  }
+
+/* no 488*/
+@media screen and (mnin-width: 468px){
+    
+}
+
+a:hover{
+    height: 500;
+    width: 500;
+    color: green;
+    transition: all 0.5s ease-in;
+    transform: scale(1,1);
+    transition: trasnform 0.5 easi in;/* W# SCHOOL TRANSITION*/
+    cursor: pointer;
+    transition-duration: 0.5s;
+    
+}
+
+
+@keyframes fadein {
+
+    0%{
+        opacity: 0;
+
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+@keyframes moveIn {
+     0% {
+        transform: translateX(0%);
+      }
+    
+      50% {
+        transform: translateX(100%);
+      }
+
+      100%{
+        transform: translateX(0%);
+      }
+}
+
+a{
+   animation: fadeIn 1s linear;
+}
+
+#head{
+ width: 200px;
+  height: 200px;
+  background: red;
+  animation: moveIn 2s infinite;
+
+
+}
+
+main{
+    width: 800px;
+   height: 800px;
+}
+
+ 

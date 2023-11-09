@@ -1,0 +1,12 @@
+.head{
+    color: blue;
+}
+#par1{
+    color: green;
+}
+#par2, #par3{
+    background-color: yellow;
+}
+#par3{
+    font-size: 24px;
+}
